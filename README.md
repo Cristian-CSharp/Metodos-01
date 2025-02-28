@@ -18,12 +18,21 @@ return valor; // Si no es void
 
 Estos métodos no reciben valores de entrada, pero devuelven un resultado con `return`.
 ```c#
-int sumaNumeros() 
-{ 
-	int num1 = 7; 
-	int num2 = 9; 
-	int resultado = num1 + num2; 
-	return resultado; 
+class Program
+{
+    static int SumarNumeros()
+    {
+        int num1 = 7;
+        int num2 = 9;
+        int resultado = num1 + num2;
+        return resultado; // Retorna la suma
+    }
+
+    static void Main()
+    {
+        int suma = SumarNumeros(); // Almacena el resultado del método
+        Console.WriteLine("La suma es: " + suma);
+    }
 }
 ```
 
@@ -32,26 +41,25 @@ int sumaNumeros()
 Se les pasan valores desde el exterior y devuelven un resultado.
 
 ```c#
-int sumaNumeros(int num1, int num2) 
-{ 
-	int resultado = num1 + num2; 
-	return resultado; 
+class Program
+{
+    static int SumarNumeros(int num1, int num2)
+    {
+        int resultado = num1 + num2;
+        return resultado; // Retorna la suma
+    }
+
+    static void Main()
+    {
+        int suma = SumarNumeros(5, 8); // Enviamos valores al método
+        Console.WriteLine("La suma es: " + suma);
+    }
 }
 ```
 
 📌 **Métodos `void` (sin retorno) sin parametros**
 
 Ejecutan una acción pero **no devuelven un valor**.
-```c#
-void sumaNumeros() 
-{ 
-	int num1 = 7;
-	int num2 = 9;
-	int resultado = num1 + num2; 
-	Console.WriteLine(resultado); 
-}
-```
-otro ejemplo:
 
 ```c#
 class Program
