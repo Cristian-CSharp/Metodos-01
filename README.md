@@ -70,6 +70,9 @@ Crea un método `MostrarMensaje(string mensaje)` que reciba un string y lo impri
 
 Crea un método `CalcularPotencia(int base, int exponente)` que reciba dos números y devuelva la potencia calculada manualmente (sin usar `Math.Pow`).
 
+---
+
 🔥 Importante
 
 Estos ejercicios, ya estan resueltos y los puedes encontrar en este repositorios, cada ejercicio esta en una carpeta...
+---
