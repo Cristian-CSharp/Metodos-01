@@ -39,7 +39,7 @@ int sumaNumeros(int num1, int num2)
 }
 ```
 
-📌 **Métodos `void` (sin retorno)**
+📌 **Métodos `void` (sin retorno) sin parametros**
 
 Ejecutan una acción pero **no devuelven un valor**.
 ```c#
@@ -51,6 +51,42 @@ void sumaNumeros()
 	Console.WriteLine(resultado); 
 }
 ```
+otro ejemplo:
+
+```c#
+class Program
+{
+    static void MostrarMensaje()
+    {
+        Console.WriteLine("¡Hola! Este es un mensaje desde un método void sin parámetros.");
+    }
+
+    static void Main()
+    {
+        MostrarMensaje(); // Llamamos al método sin enviar valores
+    }
+}
+```
+
+📌 **Métodos `void` (sin retorno) con parametros**
+
+Recibe datos al ser llamado y los usa dentro de su ejecución, pero no devuelve un valor.
+
+```c#
+class Program
+{
+    static void MostrarMensaje(string mensaje)
+    {
+        Console.WriteLine("Mensaje recibido: " + mensaje);
+    }
+
+    static void Main()
+    {
+        MostrarMensaje("¡Hola! Este es un mensaje enviado como parámetro.");
+    }
+}
+```
+
 💡 **Regla importante**: Un método `void` **nunca** lleva `return` con un valor.
 
 ## Ejercicios:
