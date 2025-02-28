@@ -51,8 +51,25 @@ void sumaNumeros()
 	Console.WriteLine(resultado); 
 }
 ```
-📌 **Regla importante**: Un método `void` **nunca** lleva `return` con un valor.
+💡 **Regla importante**: Un método `void` **nunca** lleva `return` con un valor.
 
 ## Ejercicios:
-- **Ejercicio 1: Método sin parámetros y con retorno**
+🖥️ **Ejercicio 1: Método sin parámetros y con retorno** 
+
 Crea un método llamado `ObtenerNumeroAleatorio()` que devuelva un número aleatorio entre 1 y 100.
+
+🖥️ **Ejercicio 2: Método con parámetros y con retorno**
+
+Crea un método `CalcularAreaRectangulo(int base, int altura)` que reciba la base y altura de un rectángulo y devuelva su área.
+
+🖥️ **Ejercicio 3: Método `void` (sin retorno)**
+
+Crea un método `MostrarMensaje(string mensaje)` que reciba un string y lo imprima en la consola.
+
+🖥️ **Ejercicio 4: Método con cálculos matemáticos**
+
+Crea un método `CalcularPotencia(int base, int exponente)` que reciba dos números y devuelva la potencia calculada manualmente (sin usar `Math.Pow`).
+
+🔥 Importante
+
+Estos ejercicios, ya estan resueltos y los puedes encontrar en este repositorios, cada ejercicio esta en una carpeta...
